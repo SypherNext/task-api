@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Local settings with real passwords (copy the .example files instead)
+.env
+.env.test
+.env.local
+
+# Build output, coverage, logs
+dist/
+coverage/
+*.log
+npm-debug.log*
+logs/
+
+# Python (not used here, kept for tools)
+.venv/
+__pycache__/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
